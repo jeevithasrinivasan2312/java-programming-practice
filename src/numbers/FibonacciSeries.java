@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class FibonacciSeries {
 
-    static void fibonacciSeriesInARange(int number) {
+    static void fibonacciSeriesInARange(int numberOfTerms) {
         int a=0, b=1;
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= numberOfTerms; i++) {
+            System.out.println(a);
           int c=a+b;
           a=b;
           b=c;
 
-            System.out.println(a);
+
         }
     }
 
